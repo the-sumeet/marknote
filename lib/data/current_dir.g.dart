@@ -6,7 +6,7 @@ part of 'current_dir.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$currentDirHash() => r'f4828ab8c788b9b798c4a3097fd710d234abbd0e';
+String _$currentDirHash() => r'feef68d4bb02c505b09546b8e587956598d3fc9b';
 
 /// See also [CurrentDir].
 @ProviderFor(CurrentDir)

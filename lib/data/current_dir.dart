@@ -13,8 +13,11 @@ class CurrentDir extends _$CurrentDir {
     return "";
   }
 
+  void set(String dir) {
+    state = dir;
+  }
+
   void _getHomeDir() {
-    String os = Platform.operatingSystem;
     String? home = "";
     Map<String, String> envVars = Platform.environment;
     if (Platform.isMacOS) {
@@ -25,3 +28,4 @@ class CurrentDir extends _$CurrentDir {
     stdout.writeln(home);
   }
 }
+
